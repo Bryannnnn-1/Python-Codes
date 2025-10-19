@@ -47,19 +47,10 @@ def GetTheTestScores(numberOfStudents): #function to get the test score and eval
                 print(studentName)
                 print(testResult)
                 print("Failed!")
-        
-        
         counter += 1
         
-
-
-
 def main(): #defining a main function
     numberOfStudents = getInputData()
     GetTheTestScores(numberOfStudents)
-
-
-    
-
 main() #calling the main function
 
