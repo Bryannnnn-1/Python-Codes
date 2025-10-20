@@ -78,7 +78,7 @@ def getCompanyDetails():#defining function to get input data
             print("Phone number cannot be a letter! \nRetry!")
             print("**************************************")
             continue
-        elif len (companyPhoneNumber) != 10:#checking the length of the phone number
+        elif len (companyPhoneNumber) != 11:#checking the length of the phone number
             print("please enter in 11 digits format\nRemove the leading zero(0)!")
             print("***************************")
             continue
